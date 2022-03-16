@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Clothes</title>
+    <link rel="stylesheet" href="./buildcss/style.css">
+    <script src="https://kit.fontawesome.com/8d46933cc8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"><img src="./images/logo.png" alt=""></div>
+
+        <!-- button -->
+        <div class="tabs">
+            <div class="tab--item checkpoint active">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa-solid fa-circle-dollar-to-slot"></i> Xem điểm
+            </div>
+            <div class="tab--item signup">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa-solid fa-user-plus"></i> Đăng ký
+            </div>
+        </div>
+
+        <div class="cover">
+
+            <strong></strong>
+            <strong></strong>
+            <strong></strong>
+            <strong></strong>
+
+            <!-- form check points -->
+            <form action="" id="checkpoint">
+                <input type="text" id="username" placeholder="Emai hoặc SĐT" />
+
+                <btn class="check">Kiểm tra</btn>
+            </form>
+
+            <!-- form signup -->
+            <form action="" id="signup">
+                <input type="text" id="userName" placeholder="Emai hoặc SĐT" />
+
+                <input type="text" id="Name" placeholder="Tên của bạn" />
+
+                <input type="date" id="birthDay" />
+
+                <span>Giới tính</span>
+                <div>
+                    <input type="radio" name="gender" id="male" /><label for="male"><i class="fa-solid fa-mars"></i>
+                        Nam</label>
+                    <input type="radio" name="gender" id="female" /><label for="female"><i
+                            class="fa-solid fa-venus"></i> Nữ</label>
+                </div>
+
+                <btn class="registering">Đăng ký</btn>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="alert">
+        <div class="close closeAlert">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <span class="alert--message"></span>
+    </div>
+
+    <div class="points">
+        <div class="close closePoint">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul>
+            <li id="phoneEmail">Email/SĐT: <span>duyanh@gmail.com</span></li>
+            <li id="nameUser">Tên của bạn: <span>Duy Anh</span></li>
+            <li id="dayOfBirth">Ngày sinh: <span>15/03/2000</span></li>
+            <li id="gender">Giới tính: <span>Nam</span></li>
+            <li id="points">Số điểm: <span>20</span></li>
+        </ul>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
