@@ -369,6 +369,23 @@ body {
   border-bottom: 2px solid #dfa73f;
 }
 
+.container .cover #signup input[type="text"]:nth-child(3) {
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.container .cover #signup input[type="text"]:nth-child(3):hover, .container .cover #signup input[type="text"]:nth-child(3):focus {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 2px solid #dfa73f;
+}
+
+.container .cover #signup input[type="date"] {
+  -webkit-transition: 0s;
+  transition: 0s;
+  padding: 2.82px 0 2.82px 10px;
+}
+
 .container .cover #signup span {
   font-size: 17px;
   margin-bottom: 15px;

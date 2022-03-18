@@ -253,6 +253,17 @@ body {
                     border-bottom: 2px solid #dfa73f;
                 }
             }
+            input[type="text"]:nth-child(3) {
+                transition:  0s;
+                &:hover, &:focus {
+                    transition: 0.5s;
+                    border-bottom: 2px solid #dfa73f;
+                }
+            }
+            input[type="date"] {
+                transition:  0s;
+                padding: 2.82px 0 2.82px 10px;
+            }
             span {
                 font-size: 17px;
                 margin-bottom: 15px;
